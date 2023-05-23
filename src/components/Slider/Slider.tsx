@@ -8,7 +8,7 @@ function Slider() {
 	const slides = [
 		{
 			url: "https://images7.alphacoders.com/124/1241136.png",
-			title: "Top Gun: Maverick",
+			title: "Top Gun Maverick",
 		},
 		{
 			url: "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/461ef09d460b5b4e4365c2826823db04.png",
@@ -25,7 +25,7 @@ function Slider() {
 		},
 		{
 			url: "https://e0.pxfuel.com/wallpapers/659/677/desktop-wallpaper-fast-furious-10-1920-x-1080.jpg",
-			title: "Fast & Furious 10",
+			title: "Fast & The Furious X",
 		},
 	];
 
