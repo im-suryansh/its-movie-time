@@ -15,7 +15,7 @@ function Slider() {
 			title: "Spiderman: Across The Spiderverse",
 		},
 		{
-			url: "https://wallpapershome.com/images/wallpapers/john-wick-chapter-4-3840x2160-poster-keanu-reeves-4k-24447.jpg",
+			url: "https://images2.alphacoders.com/130/thumbbig-1306782.webp",
 			title: "John Wick: Chapter 4",
 		},
 
