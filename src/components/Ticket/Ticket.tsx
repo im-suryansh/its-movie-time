@@ -95,6 +95,8 @@ function Movies({ movie, onChange }: MoviesProps) {
 
 function ShowCase() {
 	return (
+		<>
+		<img src="./public/1.jpg" alt="Home" />
 		<ul className="ShowCase">
 			<li>
 				<span className="seat" /> <small>N/A</small>
@@ -106,6 +108,7 @@ function ShowCase() {
 				<span className="seat occupied" /> <small>Occupied</small>
 			</li>
 		</ul>
+		</>
 	);
 }
 
