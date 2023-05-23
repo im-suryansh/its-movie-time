@@ -11,7 +11,7 @@ function Slider() {
 			title: "Top Gun Maverick",
 		},
 		{
-			url: "https://images.alphacoders.com/129/thumbbig-1297525.webp",
+			url: "https://wallpaperaccess.com/full/8652628.jpg",
 			title: "Spiderman: Across The Spiderverse",
 		},
 		{
