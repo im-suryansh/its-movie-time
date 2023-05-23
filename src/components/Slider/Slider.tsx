@@ -52,9 +52,9 @@ function Slider() {
 				className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
 				id="slider"
 			>
-				{/* <div className="curr">
+				<div className="curr">
 					NOW AIRING
-				</div> */}
+				</div>
 				<div id="title">{slides[currentIndex].title}</div>
 			</div>
 
