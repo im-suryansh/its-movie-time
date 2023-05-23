@@ -17,6 +17,7 @@
 }
 
 #slider {
+	width: 101vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
