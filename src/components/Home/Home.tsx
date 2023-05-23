@@ -1,10 +1,13 @@
 import Slider from "../Slider";
+import Trailer from "../Trailer";
 import "./Home.css";
 
 function Home() {
 	return (
 		<div id="home-page">
-			<Slider />
+			{/* <h1>Home</h1>
+			<Slider /> */}
+			<Trailer />
 		</div>
 	);
 }

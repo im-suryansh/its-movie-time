@@ -1,0 +1,16 @@
+#title {
+	text-align: center;
+}
+
+#slider-bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrows {
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	max-width: 10px;
+}
