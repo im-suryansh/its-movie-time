@@ -1,4 +1,30 @@
 @font-face {
-    font-family: Movie;
-    src: url('../../assets/Fonts/american-captain-font/AmericanCaptain-MdEY.otf');
+	font-family: Movie;
+	src: url("../../assets/Fonts/american-captain-font/AmericanCaptain-MdEY.otf");
+}
+
+#title {
+	text-align: center;
+	font-family: Movie;
+	color: #fff;
+	font-size: 82px;
+}
+
+#slider-bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrows {
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	max-width: 10px;
 }
