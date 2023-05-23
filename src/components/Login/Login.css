@@ -1,9 +1,8 @@
-html {
-	background-image: url("../../assets/images/login.jpeg");
-	background-size: cover;
-	width: 100vw;
-	height: 100vh;
+* {
+	margin: 0px;
+	padding: 0px;
 }
+
 .form {
 	display: flex;
 	justify-content: center;
@@ -76,4 +75,11 @@ html {
 .form .btn:active {
 	transform: translateX(0.1em) translateY(0.1em);
 	box-shadow: none;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../../assets/images/login.jpeg");
+	background-size: cover;
 }

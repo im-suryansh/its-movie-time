@@ -1,12 +1,10 @@
-import React from "react";
 import Slider from "../Slider";
-import Login from "../Login";
+import "./Home.css";
+
 function Home() {
 	return (
-		<div>
-			New movies
+		<div id="home-page">
 			<Slider />
-			<Login />
 		</div>
 	);
 }
