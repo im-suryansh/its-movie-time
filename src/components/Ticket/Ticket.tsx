@@ -1,7 +1,8 @@
 import { useState } from "react";
 import clsx from "clsx";
-
+import imageSource from '../../../public/1.jpg';
 import "./Ticket.css";
+import { Link } from "react-router-dom";
 
 interface Movie {
 	name: string;
@@ -40,6 +41,12 @@ export default function Ticket() {
 
 	return (
 		<div className="App">
+		
+		<Link to="/">
+		<img src={imageSource} alt="Home" />
+		</Link>
+
+
 			<Movies
 				movie={selectedMovie}
 				onChange={(movie) => {
@@ -96,7 +103,6 @@ function Movies({ movie, onChange }: MoviesProps) {
 function ShowCase() {
 	return (
 		<>
-		<img src="./public/1.jpg" alt="Home" />
 		<ul className="ShowCase">
 			<li>
 				<span className="seat" /> <small>N/A</small>
