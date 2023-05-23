@@ -86,12 +86,20 @@ function Slider() {
 			</a>
 			
 			</Link>
-			<a id='trailer'className="fancy" href="{slides[currentIndex].Trailer}">
+			<Link to ='/login'>
+			<button className="cta">
+    <span className="hover-underline-animation"> Shop now </span>
+    <svg viewBox="0 0 46 16" height="10" width="30" xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+        <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+    </svg>
+</button>
+			</Link>
+			{/* <a id='trailer'className="fancy" href=`url(${slides[currentIndex].Trailer})``>
 				<span className="top-key"></span>
 				<span className="text">Watch Trailer</span>
 				<span className="bottom-key-1"></span>
 				<span className="bottom-key-2"></span>
-			</a>
+			</a> */}
 		</div>
 	);
 }
