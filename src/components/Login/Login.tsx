@@ -18,7 +18,10 @@ function Login() {
 						className="input"
 						type="password"
 					/>
+					<Link to="/">
+
 					<button className="btn">Submit</button>
+					</Link>
 				</form>
 			</div>
 		</div>

@@ -2,6 +2,7 @@ import { ClassNames } from "@emotion/react";
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import "./Slider.css";
+import { Link } from "react-router-dom";
 
 function Slider() {
 	const slides = [
@@ -51,10 +52,10 @@ function Slider() {
 				className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
 				id="slider"
 			>
-				<div id="title">
-					{/* Title */}
-					{slides[currentIndex].title}
-				</div>
+				{/* <div className="curr">
+					NOW AIRING
+				</div> */}
+				<div id="title">{slides[currentIndex].title}</div>
 			</div>
 
 			{/* Left Arrow */}
@@ -66,6 +67,15 @@ function Slider() {
 			<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
 				<BsChevronCompactRight onClick={nextSlide} size={30} />
 			</div>
+			<Link to="/ticket">
+
+			<a id='buy'className="fancy" href="#">
+				<span className="top-key"></span>
+				<span className="text">Buy Tickets</span>
+				<span className="bottom-key-1"></span>
+				<span className="bottom-key-2"></span>
+			</a>
+			</Link>
 		</div>
 	);
 }
