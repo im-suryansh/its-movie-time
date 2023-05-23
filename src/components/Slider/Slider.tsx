@@ -24,7 +24,7 @@ function Slider() {
 			title: "Super Mario Bros: Movie",
 		},
 		{
-			url: "https://e0.pxfuel.com/wallpapers/659/677/desktop-wallpaper-fast-furious-10-1920-x-1080.jpg",
+			url: "https://wallpapercave.com/wp/wp11967150.jpg",
 			title: "Fast & The Furious X",
 		},
 	];

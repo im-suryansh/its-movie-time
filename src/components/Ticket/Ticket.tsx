@@ -43,7 +43,7 @@ export default function Ticket() {
 		<div className="App">
 		
 		<Link to="/">
-		<img src={imageSource} alt="Home"  style={{ width: '300px', height: '150px' }} />
+		<img src={imageSource} alt="Home"  style={{ width: '200px', height: '100px' }} />
 		</Link>
 
 
@@ -80,7 +80,7 @@ interface MoviesProps {
 function Movies({ movie, onChange }: MoviesProps) {
 	return (
 		<div className="Movies">
-			<label htmlFor="movie">Pick a movie</label>
+			<label htmlFor="movie"></label>
 			<select
 				id="movie"
 				value={movie.name}
