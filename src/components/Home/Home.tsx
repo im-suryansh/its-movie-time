@@ -5,9 +5,9 @@ import "./Home.css";
 function Home() {
 	return (
 		<div id="home-page">
-			{/* <h1>Home</h1>
-			<Slider /> */}
-			<Trailer />
+			<h1>Home</h1>
+			<Slider />
+			{/* <Trailer /> */}
 		</div>
 	);
 }

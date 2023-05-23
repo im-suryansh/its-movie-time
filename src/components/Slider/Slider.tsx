@@ -1,7 +1,6 @@
 import { ClassNames } from "@emotion/react";
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import "./Slider.css";
 
 function Slider() {
 	const slides = [
@@ -49,23 +48,22 @@ function Slider() {
 			<div
 				style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
 				className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
-				id="slider_bg"
+				id="slider"
 			>
 				<div id="title">
 					{/* Title */}
 					{slides[currentIndex].title}
 				</div>
 			</div>
-			<div className="arrows">
-				{/* Left Arrow */}
-				<div className="hidden group-hover:block absolute top-[90%] -translate-x-0 translate-y-[-50%] left-[10%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-					<BsChevronCompactLeft onClick={prevSlide} size={30} />
-				</div>
 
-				{/* Right Arrow */}
-				<div className="hidden group-hover:block absolute top-[90%] -translate-x-0 translate-y-[-50%] left-[20%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-					<BsChevronCompactRight onClick={nextSlide} size={30} />
-				</div>
+			{/* Left Arrow */}
+			<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+				<BsChevronCompactLeft onClick={prevSlide} size={30} />
+			</div>
+
+			{/* Right Arrow */}
+			<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+				<BsChevronCompactRight onClick={nextSlide} size={30} />
 			</div>
 		</div>
 	);
