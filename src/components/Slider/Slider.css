@@ -18,6 +18,7 @@
 	top:50px;
 	left: 50px;
 }
+
 #slider-bg {
 	display: flex;
 	justify-content: center;
@@ -146,4 +147,8 @@
 #buy{
 	bottom: 100px;
 	right: 100px;
+}
+#trailer{
+	bottom:100px;
+	left: 100px;
 }

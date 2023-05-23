@@ -9,23 +9,32 @@ function Slider() {
 		{
 			url: "https://images7.alphacoders.com/124/1241136.png",
 			title: "Top Gun Maverick",
+			Trailer:"https://www.youtube.com/watch?v=giXco2jaZ_4"
 		},
 		{
 			url: "https://wallpaperaccess.com/full/8652628.jpg",
 			title: "Spiderman: Across The Spiderverse",
+			Trailer:""
+
 		},
 		{
 			url: "https://wallpaperaccess.com/full/8999567.jpg",
 			title: "John Wick: Chapter 4",
+			Trailer:""
+
 		},
 
 		{
-			url: "https://images8.alphacoders.com/130/thumbbig-1302522.webp",
+			url: "https://wallpaperaccess.com/full/9048165.jpg",
 			title: "Super Mario Bros: Movie",
+			Trailer:""
+
 		},
 		{
 			url: "https://wallpapercave.com/wp/wp11967150.jpg",
 			title: "Fast & The Furious X",
+			Trailer:""
+
 		},
 	];
 
@@ -75,7 +84,14 @@ function Slider() {
 				<span className="bottom-key-1"></span>
 				<span className="bottom-key-2"></span>
 			</a>
+			
 			</Link>
+			<a id='trailer'className="fancy" href="{sliders[currentIndex].Trailer}">
+				<span className="top-key"></span>
+				<span className="text">Watch Trailer</span>
+				<span className="bottom-key-1"></span>
+				<span className="bottom-key-2"></span>
+			</a>
 		</div>
 	);
 }
