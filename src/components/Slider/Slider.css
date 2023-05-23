@@ -9,7 +9,14 @@
 	color: #fff;
 	font-size: 82px;
 }
-
+.curr{
+	text-align: center;
+	font-family: Movie;
+	color: #fff;
+	font-size: 62px;
+	top:50px;
+	right: 50px;
+}
 #slider-bg {
 	display: flex;
 	justify-content: center;
