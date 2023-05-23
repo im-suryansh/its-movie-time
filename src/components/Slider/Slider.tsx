@@ -53,7 +53,7 @@ function Slider() {
 				id="slider"
 			>
 				<div className="curr">
-					NOW AIRING
+					NOW AIRING:
 				</div>
 				<div id="title">{slides[currentIndex].title}</div>
 			</div>

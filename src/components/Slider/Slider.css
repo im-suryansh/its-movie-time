@@ -10,12 +10,13 @@
 	font-size: 82px;
 }
 .curr{
+	position: absolute;
 	text-align: center;
 	font-family: Movie;
 	color: #fff;
-	font-size: 62px;
+	font-size: 42px;
 	top:50px;
-	right: 50px;
+	left: 50px;
 }
 #slider-bg {
 	display: flex;
@@ -24,7 +25,7 @@
 }
 
 #slider {
-	width: 101vw;
+	width: 88vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
