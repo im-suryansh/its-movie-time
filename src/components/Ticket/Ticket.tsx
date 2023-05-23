@@ -68,6 +68,14 @@ export default function Ticket() {
 					{selectedSeats.length * selectedMovie.price} pass required
 				</span>
 			</p>
+			<Link to="/login">
+				<a id="login" className="fancy" href="#">
+					<span className="top-key"></span>
+					<span className="text">Buy Tickets</span>
+					<span className="bottom-key-1"></span>
+					<span className="bottom-key-2"></span>
+				</a>
+			</Link>
 		</div>
 	);
 }
