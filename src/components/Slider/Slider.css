@@ -9,13 +9,13 @@
 	color: #fff;
 	font-size: 82px;
 }
-.curr{
+.curr {
 	position: absolute;
 	text-align: center;
 	font-family: Movie;
 	color: #fff;
 	font-size: 42px;
-	top:50px;
+	top: 50px;
 	left: 50px;
 }
 
@@ -144,12 +144,13 @@
 	width: 0;
 }
 
-#buy{
+#buy {
 	bottom: 100px;
 	right: 100px;
 }
-#login{
-bottom: 100;	right: 100px;
+#login {
+	bottom: 100;
+	left: 100px;
 }
 
 /* #trailer{
