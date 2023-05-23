@@ -148,9 +148,12 @@
 	bottom: 100px;
 	right: 100px;
 }
-.cta {
+#login{
 	top:50px;
 	right: 50px;
+}
+.cta {
+	
 	border: none;
 	background: none;
   }
