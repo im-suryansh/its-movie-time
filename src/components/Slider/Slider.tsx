@@ -15,12 +15,12 @@ function Slider() {
 			title: "Spiderman: Across The Spiderverse",
 		},
 		{
-			url: "https://images2.alphacoders.com/130/thumbbig-1306782.webp",
+			url: "https://images3.alphacoders.com/130/thumbbig-1308244.webp",
 			title: "John Wick: Chapter 4",
 		},
 
 		{
-			url: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/dfu6vo6-9d7336b6-aae1-48c9-a196-30c0dc8223a4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGZ1NnZvNi05ZDczMzZiNi1hYWUxLTQ4YzktYTE5Ni0zMGMwZGM4MjIzYTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.axBlf_ASPWKpRrYTP-zLasP8Viyde42lzfau6VxYkkk",
+			url: "https://images8.alphacoders.com/130/thumbbig-1302522.webp",
 			title: "Super Mario Bros: Movie",
 		},
 		{
