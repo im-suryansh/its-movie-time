@@ -7,9 +7,9 @@ function Login() {
 		<div className="wrapper">
 			<div className="page">
 				<form className="form">
-					<p className="heading">LOGIN</p>
+					<p className="heading">It's Movie Time</p>
 					<input
-						placeholder="Username"
+						placeholder="College ID"
 						className="input"
 						type="text"
 					/>
@@ -20,7 +20,7 @@ function Login() {
 					/>
 					<Link to="/">
 
-					<button className="btn">Submit</button>
+					<button className="btn">Login</button>
 					</Link>
 				</form>
 			</div>

@@ -81,14 +81,7 @@ function Slider() {
 					<span className="bottom-key-2"></span>
 				</a>
 			</Link>
-			<Link to="/login">
-				<a id="login" className="fancy" href="#">
-					<span className="top-key"></span>
-					<span className="text">Buy Tickets</span>
-					<span className="bottom-key-1"></span>
-					<span className="bottom-key-2"></span>
-				</a>
-			</Link>
+			
 			
 			
 			{/* <a id='trailer'className="fancy" href=`url(${slides[currentIndex].Trailer})``>
