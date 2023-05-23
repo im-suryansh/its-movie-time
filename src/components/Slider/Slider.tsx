@@ -86,7 +86,7 @@ function Slider() {
 			</a>
 			
 			</Link>
-			<a id='trailer'className="fancy" href="{sliders[currentIndex].Trailer}">
+			<a id='trailer'className="fancy" href="{slides[currentIndex].Trailer}">
 				<span className="top-key"></span>
 				<span className="text">Watch Trailer</span>
 				<span className="bottom-key-1"></span>
