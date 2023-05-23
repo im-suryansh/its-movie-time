@@ -52,25 +52,7 @@ function Slider() {
 
 	return (
 		<div className="max-w-[1400px] h-[100vh] w-full m-auto py-2 relative group">
-			<Link to="/login">
-				<button id="login" className="cta">
-					<span className="hover-underline-animation">Login</span>
-					<svg
-						viewBox="0 0 46 16"
-						height="10"
-						width="30"
-						xmlns="http://www.w3.org/2000/svg"
-						id="arrow-horizontal"
-					>
-						<path
-							transform="translate(30)"
-							d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-							data-name="Path 10"
-							id="Path_10"
-						></path>
-					</svg>
-				</button>
-			</Link>
+		
 			<div
 			
 				style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
@@ -90,6 +72,25 @@ function Slider() {
 			<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
 				<BsChevronCompactRight onClick={nextSlide} size={30} />
 			</div>
+			<Link to="/login">
+				<button id="login" className="cta">
+					<span className="hover-underline-animation">Login</span>
+					<svg
+						viewBox="0 0 46 16"
+						height="10"
+						width="30"
+						xmlns="http://www.w3.org/2000/svg"
+						id="arrow-horizontal"
+					>
+						<path
+							transform="translate(30)"
+							d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+							data-name="Path 10"
+							id="Path_10"
+						></path>
+					</svg>
+				</button>
+			</Link>
 			<Link to="/ticket">
 				<a id="buy" className="fancy" href="#">
 					<span className="top-key"></span>
