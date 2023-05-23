@@ -9,32 +9,28 @@ function Slider() {
 		{
 			url: "https://images7.alphacoders.com/124/1241136.png",
 			title: "Top Gun Maverick",
-			Trailer:"https://www.youtube.com/watch?v=giXco2jaZ_4"
+			Trailer: "https://www.youtube.com/watch?v=giXco2jaZ_4",
 		},
 		{
 			url: "https://wallpaperaccess.com/full/8652628.jpg",
 			title: "Spiderman: Across The Spiderverse",
-			Trailer:""
-
+			Trailer: "",
 		},
 		{
 			url: "https://wallpaperaccess.com/full/8999567.jpg",
 			title: "John Wick: Chapter 4",
-			Trailer:""
-
+			Trailer: "",
 		},
 
 		{
 			url: "https://wallpaperaccess.com/full/9048165.jpg",
 			title: "Super Mario Bros: Movie",
-			Trailer:""
-
+			Trailer: "",
 		},
 		{
 			url: "https://wallpapercave.com/wp/wp11967150.jpg",
 			title: "Fast & The Furious X",
-			Trailer:""
-
+			Trailer: "",
 		},
 	];
 
@@ -56,14 +52,32 @@ function Slider() {
 
 	return (
 		<div className="max-w-[1400px] h-[100vh] w-full m-auto py-2 relative group">
+			<Link to="/login">
+				<button id="login" className="cta">
+					<span className="hover-underline-animation">Login</span>
+					<svg
+						viewBox="0 0 46 16"
+						height="10"
+						width="30"
+						xmlns="http://www.w3.org/2000/svg"
+						id="arrow-horizontal"
+					>
+						<path
+							transform="translate(30)"
+							d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+							data-name="Path 10"
+							id="Path_10"
+						></path>
+					</svg>
+				</button>
+			</Link>
 			<div
+			
 				style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
 				className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
 				id="slider"
 			>
-				<div className="curr">
-					NOW AIRING:
-				</div>
+				<div className="curr">NOW AIRING:</div>
 				<div id="title">{slides[currentIndex].title}</div>
 			</div>
 
@@ -77,23 +91,14 @@ function Slider() {
 				<BsChevronCompactRight onClick={nextSlide} size={30} />
 			</div>
 			<Link to="/ticket">
-
-			<a id='buy'className="fancy" href="#">
-				<span className="top-key"></span>
-				<span className="text">Buy Tickets</span>
-				<span className="bottom-key-1"></span>
-				<span className="bottom-key-2"></span>
-			</a>
+				<a id="buy" className="fancy" href="#">
+					<span className="top-key"></span>
+					<span className="text">Buy Tickets</span>
+					<span className="bottom-key-1"></span>
+					<span className="bottom-key-2"></span>
+				</a>
+			</Link>
 			
-			</Link>
-			<Link to ='/login'>
-			<button id='login'className="cta">
-    <span className="hover-underline-animation">Login</span>
-    <svg viewBox="0 0 46 16" height="10" width="30" xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
-        <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
-    </svg>
-</button>
-			</Link>
 			{/* <a id='trailer'className="fancy" href=`url(${slides[currentIndex].Trailer})``>
 				<span className="top-key"></span>
 				<span className="text">Watch Trailer</span>
