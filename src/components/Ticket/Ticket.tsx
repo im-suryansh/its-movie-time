@@ -43,7 +43,7 @@ export default function Ticket() {
 		<div className="App">
 		
 		<Link to="/">
-		<img src={imageSource} alt="Home" />
+		<img src={imageSource} alt="Home"  style={{ width: '200px', height: '150px' }} />
 		</Link>
 
 
